@@ -51,7 +51,7 @@ h3, h5{
     color: RGB(49,25,13);
 
 }
-a{
+.linkStyle{
     text-decoration: none;
     padding: 15px 15px;
     color: rgb(255, 255, 255);

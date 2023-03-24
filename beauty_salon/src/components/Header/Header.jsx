@@ -12,10 +12,10 @@ const Header = () =>{
         </div>
         <div className={s.menu} id="mainnav">
             <ul>
-                <li><a href="/#home">home</a></li>
-                <li> <a href="/#story">our story</a></li>
-                <li><a href="/#price">services and prices</a></li>
-                <li><a href="/#contacts">contacts</a></li>
+                <li><a className={s.linkStyle} href="/#home">home</a></li>
+                <li> <a className={s.linkStyle} href="/#story">our story</a></li>
+                <li><a className={s.linkStyle} href="/#price">services and prices</a></li>
+                <li><a className={s.linkStyle} href="/#contacts">contacts</a></li>
             </ul>
         </div>
     </div>

@@ -5,6 +5,7 @@ footer{
   }
   .contentfoot{
     display: flex;
+    /* flex-wrap: wrap; */
     padding: 20px 30px;
     justify-content: space-around;
   
@@ -22,4 +23,12 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  @media screen and (max-width: 660px) {
+    .contentfoot{
+      flex-direction: column;
+    }
+    .info{
+      margin-top: 15px;
+    }
   }

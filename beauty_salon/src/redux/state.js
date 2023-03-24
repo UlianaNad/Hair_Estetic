@@ -58,7 +58,16 @@ let state = {
         {id:12, name:"Selän vahaus (miehet)", price:"35€", description:""},
         {id:13, name:"Rinnan vahaus (miehet)", price:"35€", description:""},
         {id:14, name:"Vahauspaketti (selkä+rinnat (miehet))", price:"60€", description:""}
-      ]
+      ],
+    CrewPeople: [
+      {name:'Eve', lastname:"Foster", photo:'w1.jpg', instagram:'', facebook:'', phone:''},
+      {name:'Roosa', lastname:"Bill", photo:'w2.jpg', instagram:'', facebook:'', phone:''},
+      {name:'Klara', lastname:"Berk", photo:'w3.jpg', instagram:'', facebook:'', phone:''},
+      {name:'Judy', lastname:"Claim", photo:'w4.jpg', instagram:'', facebook:'', phone:''},
+      {name:'Roosa', lastname:"Bill", photo:'w2.jpg', instagram:'', facebook:'', phone:''},
+      {name:'Klara', lastname:"Berk", photo:'w3.jpg', instagram:'', facebook:'', phone:''},
+      
+    ]
 }
 
 export default state;

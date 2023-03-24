@@ -16,7 +16,7 @@ const Prices = (props) =>{
   
     return(
         <div className={s.pricewrapper}>
-            <h3 id="price" className={s.h3price}>Our prices</h3>
+            <h3 id="price" className={s.h3price}>Hinnasto</h3>
             <Navbar />
                 <Routes>
                     <Route path="/hair" element={<Hair HairPriceData={props.HairPriceData}/> } />

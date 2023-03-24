@@ -13,11 +13,12 @@ import Footer from './components/Footer/Footer';
         <div className="App">
           <Header />
           <Main HairPriceData={props.appState.HairPriceData}
-            BodyCarePriceData={props.appState.BodyCarePriceData}
-            EyesPriceData = {props.appState.EyesPriceData}
-            DyeHairPriceData = {props.appState.DyeHairPriceData}
-            NailPriceData = {props.appState.NailPriceData}
-            WaxPriceData = {props.appState.WaxPriceData}
+                BodyCarePriceData={props.appState.BodyCarePriceData}
+                EyesPriceData = {props.appState.EyesPriceData}
+                DyeHairPriceData = {props.appState.DyeHairPriceData}
+                NailPriceData = {props.appState.NailPriceData}
+                WaxPriceData = {props.appState.WaxPriceData}
+                CrewPeople = {props.appState.CrewPeople}
           />
           <Footer />
           

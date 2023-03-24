@@ -9,7 +9,7 @@ const Main = (props) =>{
     return(
         <div>
             <main>
-            <Story />
+            <Story CrewPeople = {props.CrewPeople}/>
             <Divider />
             <Prices HairPriceData={props.HairPriceData}
                     BodyCarePriceData={props.BodyCarePriceData}
